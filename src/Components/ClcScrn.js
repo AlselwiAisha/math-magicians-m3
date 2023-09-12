@@ -1,19 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-class ClcScrn extends React.PureComponent {
-  render() {
-    const { value } = this.props;
-    return (
+/* eslint-disable react/prop-types */
+const ClcScrn = ({ value }) => {
+  const val = `${value}`;
+  return (
+    <>
       <div className="clcScrn">
-        {value}
+        {val}
       </div>
-    );
-  }
-}
-
-ClcScrn.propTypes = {
-  value: PropTypes.string.isRequired,
+    </>
+  );
 };
 
 export default ClcScrn;
