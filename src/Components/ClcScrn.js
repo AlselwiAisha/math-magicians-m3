@@ -1,18 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ClcScrn = ({ value }) => {
-  const val = `${value}`;
+const ClcScrn = ({ total, next, operation }) => {
+  const tot = `${total}`;
+  const nxt = `${next}`;
+  const oprtion = `${operation}`;
   return (
     <>
       <div className="clcScrn">
-        {val}
+        {tot}
+        {oprtion}
+        {nxt}
       </div>
     </>
   );
 };
 
 ClcScrn.propTypes = {
-  value: PropTypes.string.isRequired,
+  total: PropTypes.number.isRequired,
+  next: PropTypes.string.isRequired,
+  operation: PropTypes.string.isRequired,
 };
 export default ClcScrn;
