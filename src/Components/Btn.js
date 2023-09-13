@@ -15,12 +15,12 @@ const getClassName = (valu) => {
     '.': 'btn1',
   }; return classNames[valu] || 'num';
 };
-const Btn = ({ value }) => {
+const Btn = ({ value, onClick }) => {
   const val = `${value}`;
 
   return (
     (
-      <button type="button" className={`${getClassName(val)} btn`}>
+      <button type="button" className={`${getClassName(val)} btn`} onClick={onClick}>
         {val}
       </button>
     )
@@ -29,5 +29,6 @@ const Btn = ({ value }) => {
 
 Btn.propTypes = {
   value: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 export default Btn;
