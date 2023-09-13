@@ -11,7 +11,6 @@ const Calculator = () => {
 
   const onClick = (e) => {
     const btn = e.target.innerHTML;
-    console.log(btn);
     const results = calculate({ total, next, operation }, btn);
     setTotal(results.total || '');
     setNext(results.next || '');
