@@ -2,7 +2,6 @@ import React from 'react';
 import './Calculator.css';
 import ClcScrn from './ClcScrn';
 import Btn from './Btn';
-/* eslint-disable react/no-array-index-key */
 
 const Calculator = () => {
   const btnValues = [
@@ -16,9 +15,9 @@ const Calculator = () => {
     <div className="clcBckgrnd">
       <ClcScrn value="0" />
       <div className="btnsPad">
-        {btnValues.flat().map((row, indx) => (
+        {btnValues.flat().map((row) => (
           <Btn
-            key={indx}
+            key={row.id}
             value={row}
           />
         ))}

@@ -1,5 +1,6 @@
 import React from 'react';
-/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
+
 const ClcScrn = ({ value }) => {
   const val = `${value}`;
   return (
@@ -11,4 +12,7 @@ const ClcScrn = ({ value }) => {
   );
 };
 
+ClcScrn.propTypes = {
+  value: PropTypes.string.isRequired,
+};
 export default ClcScrn;

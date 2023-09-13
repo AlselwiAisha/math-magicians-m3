@@ -1,6 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-/* eslint-disable react/prop-types */
 const getClassName = (valu) => {
   const classNames = {
     AC: 'btn1',
@@ -27,4 +27,7 @@ const Btn = ({ value }) => {
   );
 };
 
+Btn.propTypes = {
+  value: PropTypes.string.isRequired,
+};
 export default Btn;
