@@ -30,10 +30,10 @@ const Calculator = () => {
       <div className="calcborder">
         <div className="clcBckgrnd">
           <ClcScrn total={total} next={next} operation={operation} />
-          <div className="btnsPad">
+          <div key={(i) => i + 1} className="btnsPad">
             {btnValues.flat().map((row) => (
               <Btn
-                key={row.id}
+                key={row}
                 value={row}
                 onClick={onClick}
               />
