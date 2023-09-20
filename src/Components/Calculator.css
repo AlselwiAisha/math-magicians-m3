@@ -1,17 +1,20 @@
-.calcmain{
+.calcmain {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
-.calcmain h2{
-  font-size:2.5rem ;
+
+.calcmain h2 {
+  font-size: 2.5rem;
   font-weight: 600;
   padding-bottom: 3rem;
 }
-.calcborder{
+
+.calcborder {
   margin: 2rem;
 }
+
 .clcBckgrnd {
   background-color: #f4f3f3;
   border-radius: 0.3rem;
