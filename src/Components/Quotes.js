@@ -35,7 +35,6 @@ const Quote = () => {
         <p className="error">{content}</p>
       ) : (
         <div className="Container">
-          <h2 className="Header">Quotes</h2>
           <p className="loading">{content}</p>
           {data.loadingData.map((data) => (
             <div className="Text" key={data.id}>

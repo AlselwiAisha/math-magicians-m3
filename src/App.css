@@ -6,9 +6,7 @@
 
 body {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f4f4f4;
+  background: #fef8f8;
   height: 100vh;
 }
 
@@ -18,4 +16,40 @@ body {
   align-items: center;
   text-align: center;
   width: 100%;
+}
+
+.layout {
+  margin: 0 2rem;
+  width: 100%;
+}
+
+.nav {
+  margin: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav h2 {
+  font-size: 2.1rem;
+}
+
+.nav ul {
+  width: 30%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2rem;
+  gap: 10px;
+}
+
+.link {
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+}
+
+.link:not(:last-child) {
+  border-right: 2px solid #000;
 }

@@ -23,18 +23,23 @@ const Calculator = () => {
     ['1', '2', '3', '+'],
     ['0', '.', '='],
   ];
-
+  const dis = "Let's do some math!";
   return (
-    <div className="clcBckgrnd">
-      <ClcScrn total={total} next={next} operation={operation} />
-      <div className="btnsPad">
-        {btnValues.flat().map((row) => (
-          <Btn
-            key={row.id}
-            value={row}
-            onClick={onClick}
-          />
-        ))}
+    <div className="calcmain">
+      <h2>{dis}</h2>
+      <div className="calcborder">
+        <div className="clcBckgrnd">
+          <ClcScrn total={total} next={next} operation={operation} />
+          <div className="btnsPad">
+            {btnValues.flat().map((row) => (
+              <Btn
+                key={row.id}
+                value={row}
+                onClick={onClick}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

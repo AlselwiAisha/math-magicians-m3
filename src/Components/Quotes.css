@@ -1,15 +1,14 @@
 .Container {
-  width: 50%;
-  padding-left: 1rem;
-  margin-top: 1rem;
-  max-height: 18rem;
-  overflow-y: auto;
+  width: 100%;
+  padding: 5rem;
+  margin-top: 10rem;
+  text-align: center;
 }
 
 .Text {
   margin: 0.5rem;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -20,6 +19,7 @@
 }
 
 .Header {
+  text-align: left;
   font-size: 3rem;
   font-weight: 600;
   color: brown;
