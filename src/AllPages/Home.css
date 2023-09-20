@@ -1,0 +1,13 @@
+.main{
+    width: 95%;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.main h1{
+    margin: 2rem;
+}
