@@ -8,6 +8,7 @@ import NavBar from '../Components/Header';
 import Calculator from '../Components/Calculator';
 import Quote from '../Components/Quotes';
 import ClcScrn from '../Components/ClcScrn';
+
 describe('Btn component', () => {
   it('should match the snapshot', () => {
     const { container } = render(<Btn />);
@@ -28,7 +29,6 @@ describe('ClcScrn component', () => {
     expect(container).toMatchSnapshot();
   });
 });
-
 
 describe('Layout component', () => {
   it('should match the snapshot', () => {
