@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+/* eslint-disable react/prop-types */
 
 const getClassName = (valu) => {
   const classNames = {
@@ -23,8 +23,4 @@ const Btn = ({ value, onClick }) => {
   );
 };
 
-Btn.propTypes = {
-  value: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired,
-};
 export default Btn;

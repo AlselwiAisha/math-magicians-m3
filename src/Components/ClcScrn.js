@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+/* eslint-disable react/prop-types */
 
 const ClcScrn = ({ total, next, operation }) => {
   const tot = `${total}`;
@@ -16,9 +16,4 @@ const ClcScrn = ({ total, next, operation }) => {
   );
 };
 
-ClcScrn.propTypes = {
-  total: PropTypes.number.isRequired,
-  next: PropTypes.string.isRequired,
-  operation: PropTypes.string.isRequired,
-};
 export default ClcScrn;

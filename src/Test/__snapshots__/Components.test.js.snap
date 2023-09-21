@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Btn component should match the snapshot 1`] = `
+<div>
+  <button
+    class="num btn"
+    type="button"
+  >
+    undefined
+  </button>
+</div>
+`;
+
+exports[`Calculator component should match the snapshot 1`] = `
+<div>
+  <div
+    class="calcmain"
+  >
+    <h2>
+      Let's do some math!
+    </h2>
+    <div
+      class="calcborder"
+    >
+      <div
+        class="clcBckgrnd"
+      >
+        <div
+          class="clcScrn"
+        >
+          0
+        </div>
+        <div
+          class="btnsPad"
+        >
+          <button
+            class="num btn"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="btn2 btn"
+            type="button"
+          >
+            ÷
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="btn2 btn"
+            type="button"
+          >
+            x
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="btn2 btn"
+            type="button"
+          >
+            -
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="btn2 btn"
+            type="button"
+          >
+            +
+          </button>
+          <button
+            class="zero btn"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="num btn"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="btn2 btn"
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ClcScrn component should match the snapshot 1`] = `
+<div>
+  <div
+    class="clcScrn"
+  >
+    undefined
+    undefined
+    undefined
+  </div>
+</div>
+`;
+
+exports[`ClcScrn component should match the snapshot 2`] = `
+<div
+  class="clcScrn"
+>
+  undefined
+  undefined
+  undefined
+</div>
+`;
+
+exports[`Layout component should match the snapshot 1`] = `
+<div>
+  <div
+    class="layout"
+  >
+    <nav
+      class="nav"
+    >
+      <h2>
+        Math Magicians
+      </h2>
+      <ul>
+        <li
+          class="link"
+        >
+          <a
+            aria-current="page"
+            class="navLink active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="link"
+        >
+          <a
+            class="navLink"
+            href="/Calculator"
+          >
+            Calculator
+          </a>
+        </li>
+        <li
+          class="link"
+        >
+          <a
+            class="navLink"
+            href="/Quote"
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`NavBar component should match the snapshot 1`] = `
+<div>
+  <nav
+    class="nav"
+  >
+    <h2>
+      Math Magicians
+    </h2>
+    <ul>
+      <li
+        class="link"
+      >
+        <a
+          aria-current="page"
+          class="navLink active"
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        class="link"
+      >
+        <a
+          class="navLink"
+          href="/Calculator"
+        >
+          Calculator
+        </a>
+      </li>
+      <li
+        class="link"
+      >
+        <a
+          class="navLink"
+          href="/Quote"
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`Quote component should match the snapshot 1`] = `
+<div>
+  <div
+    class="Container"
+  >
+    <p
+      class="loading"
+    >
+      Loading ...
+    </p>
+  </div>
+</div>
+`;
