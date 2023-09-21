@@ -4,6 +4,7 @@ import '@testing-library/jest-dom/extend-expect';
 import Home from '../AllPages/Home';
 import Calculator from '../AllPages/Calculator';
 import Quote from '../AllPages/Quote';
+
 describe('Home AllPages', () => {
   it('should match the snapshot', () => {
     const { container } = render(<Home />);
