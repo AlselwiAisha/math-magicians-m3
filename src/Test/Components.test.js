@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import Btn from '../Components/Btn';
 import renderWithRouter from '../Components/testPage';
@@ -13,6 +13,8 @@ describe('Btn component', () => {
   it('should match the snapshot', () => {
     const { container } = render(<Btn />);
     expect(container).toMatchSnapshot();
+    expect(screen.getByText('undefined'))
+      .toBeInTheDocument('<button class="num btn" type="button">undefined</button>');
   });
 });
 
@@ -27,6 +29,7 @@ describe('ClcScrn component', () => {
   it('should match the snapshot', () => {
     const { container } = render(<ClcScrn />);
     expect(container).toMatchSnapshot();
+    expect(screen.getByText('undefinedundefinedundefined')).toMatchSnapshot();
   });
 });
 

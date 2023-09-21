@@ -1,17 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Btn component should match the snapshot 1`] = `
-<div>
-  <button
-    class="num btn"
-    type="button"
-  >
-    undefined
-  </button>
-</div>
-`;
-
-exports[`Calculator component should match the snapshot 1`] = `
+exports[`Calculator AllPages should match the snapshot 1`] = `
 <div>
   <div
     class="calcmain"
@@ -154,123 +143,25 @@ exports[`Calculator component should match the snapshot 1`] = `
 </div>
 `;
 
-exports[`ClcScrn component should match the snapshot 1`] = `
+exports[`Home AllPages should match the snapshot 1`] = `
 <div>
   <div
-    class="clcScrn"
+    class="main"
   >
-    undefined
-    undefined
-    undefined
+    <h1>
+      Welcom to our page
+    </h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, alias. Recusandae labore architecto aspernatur ipsa asperiores, placeat aperiam odio praesentium, exercitationem, temporibus et dolorem repellat molestias sint reiciendis voluptatibus. Autem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, alias. Recusandae labore architecto aspernatur ipsa asperiores, placeat aperiam odio praesentium, exercitationem, temporibus et dolorem repellat molestias sint reiciendis voluptatibus. Autem?
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, alias. Recusandae labore architecto aspernatur ipsa asperiores, placeat aperiam odio praesentium, exercitationem, temporibus et dolorem repellat molestias sint reiciendis voluptatibus. Autem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, alias. Recusandae labore architecto aspernatur ipsa asperiores, placeat aperiam odio praesentium, exercitationem, temporibus et dolorem repellat molestias sint reiciendis voluptatibus. Autem?
+    </p>
   </div>
 </div>
 `;
 
-exports[`ClcScrn component should match the snapshot 2`] = `
-<div
-  class="clcScrn"
->
-  undefined
-  undefined
-  undefined
-</div>
-`;
-
-exports[`Layout component should match the snapshot 1`] = `
-<div>
-  <div
-    class="layout"
-  >
-    <nav
-      class="nav"
-    >
-      <h2>
-        Math Magicians
-      </h2>
-      <ul>
-        <li
-          class="link"
-        >
-          <a
-            aria-current="page"
-            class="navLink active"
-            href="/"
-          >
-            Home
-          </a>
-        </li>
-        <li
-          class="link"
-        >
-          <a
-            class="navLink"
-            href="/Calculator"
-          >
-            Calculator
-          </a>
-        </li>
-        <li
-          class="link"
-        >
-          <a
-            class="navLink"
-            href="/Quote"
-          >
-            Quote
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</div>
-`;
-
-exports[`NavBar component should match the snapshot 1`] = `
-<div>
-  <nav
-    class="nav"
-  >
-    <h2>
-      Math Magicians
-    </h2>
-    <ul>
-      <li
-        class="link"
-      >
-        <a
-          aria-current="page"
-          class="navLink active"
-          href="/"
-        >
-          Home
-        </a>
-      </li>
-      <li
-        class="link"
-      >
-        <a
-          class="navLink"
-          href="/Calculator"
-        >
-          Calculator
-        </a>
-      </li>
-      <li
-        class="link"
-      >
-        <a
-          class="navLink"
-          href="/Quote"
-        >
-          Quote
-        </a>
-      </li>
-    </ul>
-  </nav>
-</div>
-`;
-
-exports[`Quote component should match the snapshot 1`] = `
+exports[`Quote AllPages should match the snapshot 1`] = `
 <div>
   <div
     class="Container"
