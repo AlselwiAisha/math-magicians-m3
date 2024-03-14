@@ -156,8 +156,8 @@ soon
 
 👤 **Aisha Alsewi**
 
-- GitHub: [@githubhandle](https://github.com/AlselwiAisha)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aisha-alselwi-53a361270/)
+- GitHub: [Aisha Alselwi](https://github.com/AlselwiAisha)
+- LinkedIn: [Aisha Alselwi](https://www.linkedin.com/in/aisha-alselwi/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
